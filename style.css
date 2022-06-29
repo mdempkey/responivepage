@@ -1,0 +1,55 @@
+*{}
+body{
+  /*this is a code comment in CSS*/
+  background-image: url("assets/gradientBG.jpeg"); 
+}
+
+#movieImage{
+  width: 50em;
+
+  /*centering the image*/
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#movieTitle{
+  color: blueviolet; 
+
+  /*centering the text*/
+  text-align: center;
+}
+
+.movieSummary{
+  text-align: center;
+  
+  /*centering the text*/ 
+  color: purple;
+}
+
+.flexboxContainer {
+ background-color:blue;
+display:flex;
+  flex-direction:row;
+  flex-wrap:nowrap;
+  
+}
+
+.flexItem{
+  text-align: center;
+  flex-basis: 100%;
+}
+
+@media screen and (max-width:500px){
+  .flexboxContainer{
+    display:flex;
+  }
+  
+}
+
+@media screen and (max-width:800px){
+  .flexboxContainer{
+    display:block;
+  }
+  
+}
